@@ -1,9 +1,11 @@
 import React from 'react'
-import logo from '../images/TECELEC1.jpg'
-import bground from '../images/construccion.jpg'
+//import logo from '../images/TECELEC1.jpg'
+//import other from  '../static/construccion.jpg'
+import { StaticImage } from 'gatsby-plugin-image'
 
 
 export const Presentacion = () => {
+
     return (
         <div id="home">
             <div className="relative bg-white overflow-hidden">
@@ -17,7 +19,12 @@ export const Presentacion = () => {
                                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                                     <div className="flex items-center justify-between w-full md:w-auto">
                                         <a href="#home" aria-label="Home">
-                                            <img className="h-8 w-auto sm:h-10" src={logo} alt="Logo Tec Elec" />
+                                            <StaticImage 
+                                                src="../images/tecelecmin.jpg" 
+                                                className="h-8 w-12 sm:h-10"
+                                                alt="Logo Tec Elec" 
+                                            /> 
+                                            {/*<img className="h-8 w-auto sm:h-10" src={logo} alt="Logo Tec Elec" />*/}
                                         </a>
                                         <div className="-mr-2 flex items-center md:hidden">
                                             <button type="button" className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" id="main-menu" aria-label="Main menu" aria-haspopup="true">
@@ -42,7 +49,8 @@ export const Presentacion = () => {
                                     <div className="rounded-lg bg-white overflow-hidden" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
                                         <div className="px-5 pt-4 flex items-center justify-between">
                                             <div>
-                                                <img className="h-8 w-auto" src={logo} alt="Contruccion background" />
+                                                {/*<img className="h-8 w-auto" src={logo} alt="Logo Tec Elec del Pacifico" />*/}
+                                                <StaticImage src="../images/tecelecmin.jpg" alt="Logo tec elec del pacifico" className="h-auto w-12" />
                                             </div>
                                             
                                             <div className="-mr-2">
@@ -86,7 +94,7 @@ export const Presentacion = () => {
                                             </a>
                                         </div>
                                         <div className="mt-3 sm:mt-0 sm:ml-3">
-                                            <a href="#" className="w-full flex inline-flex items-center space-x-2 items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                                            <a href="/proyectos" className="w-full flex inline-flex items-center space-x-2 items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                                                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path><path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"></path>
                                                 </svg>
@@ -99,7 +107,14 @@ export const Presentacion = () => {
                         </div>
                     </div>
                 <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-                    <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src={bground} alt="obra en contruccion" />
+
+                    <StaticImage 
+                        className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" 
+                        src="../images/construccion.jpg"
+                        alt="obra en contruccion"
+                        placeholder="dominantColor"
+                    />
+                    {/*<img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://images.unsplash.com/photo-1527199768775-bdabf8b32f61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="obra en contruccion" />*/}
                 </div>
             </div>
         </div>

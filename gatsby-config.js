@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://18.221.27.127/tecelec/",
     title: "Tec Elec",
     description: "Tec Elec empresa 100% confiable dedicados a los servicios topograficos y construccion en general",
     author: "@donatto18",
-    keywords: "topografia, construccion, construccion en general, contruccion acapulco, topografia acapulco, servicios topograficos",
-    image: "src/images/TECELEC1.jpg",
+    keywords: "topografia, construccion, construccion en general, contruccion acapulco, topografia acapulco, servicios topograficos, servicios topograficos acapulco",
+    image: "../images/TECELEC1.jpg",
   },
   plugins: [
     "gatsby-plugin-image",
@@ -17,9 +17,16 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: `${__dirname}/src/images/`,
       },
       __key: "images",
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
+      },
     },
   ],
 };

@@ -22,7 +22,6 @@ export const Contacto = () => {
                                     </svg>
                                     <div className="ml-4 text-md tracking-wide font-semibold w-40">
                                         Acapulco, Guerero
-                                        Anton de Alaminos Fracc. Costa Azul
                                         CP 39850
                                     </div>
                                 </div>

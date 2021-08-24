@@ -21,6 +21,8 @@ export const Servicios = () => {
                     </div>
                     <div className="">
                         <div className="rounded-lg shadow-2xl flex p-2 mt-2 justify-center bg-gray-100">
+                            {/*<img src="https://images.unsplash.com/photo-1545186070-de624ed19875?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80" 
+                            alt="Topogrfo tomando medidas" height="300px" width="500px" />*/}
                             <StaticImage src="../images/morgan.jpg" alt="Tomando Medidas" width={500} height={300} />
                         </div>
                     </div>
@@ -38,6 +40,8 @@ export const Servicios = () => {
                     </div>
                     <div className="">
                         <div className="rounded-lg shadow-2xl flex justify-center p-2 mt-2 bg-gray-100">
+                            {/*<img src="https://images.unsplash.com/photo-1529792083865-d23889753466?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" 
+                            alt="Obra en control" height="300px" width="500px" />*/}
                             <StaticImage src="../images/nicolas.jpg" alt="obra en construccion" width={500} height={300} />
                         </div>
                     </div>

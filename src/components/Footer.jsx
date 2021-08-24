@@ -1,6 +1,9 @@
 import React from 'react'
 
 export const Footer = () => {
+    
+    const now = new Date();
+
     return (
         <div>
             <script src="https://kit.fontawesome.com/4db6b32bd3.js" crossOrigin="anonymous"></script>
@@ -16,15 +19,11 @@ export const Footer = () => {
                                 </defs>
                                 <rect id="ETI-Logo" width="160" height="57" fill="url(#pattern)"/>
                             </svg> 
-                            <p>Direccion</p>
-                            <p className="opacity-60">Concord Royal Court (3rd floor)
-                                Dhanmondi, Dhaka 1209, Bangladesh.</p>             
+                            <p className="opacity-60">Acapulco, Guerrero, CP: 39850</p>             
                         </div>
                         <div className="w-full sm:w-1/5 flex flex-col space-y-4">
-                            <p className="opacity-60">Horarios</p>
-                            <p className="opacity-60">Lun-Vie 08:00 a 20:00</p>
-                            <p className="opacity-60">Sab 08:00 a 15:00</p>
-                            <p className="opacity-60">Dom Cerrado</p>
+                            <p className="opacity-60">Horarios:</p>
+                            <p className="opacity-60">24/7</p>
                         </div>
                         <div className="w-full sm:w-1/5 flex flex-col space-y-4">
                             <p className="opacity-60">Telefonos</p>
@@ -42,7 +41,7 @@ export const Footer = () => {
                         </div>
                     </div>
                     <div className="opacity-60 pt-2">
-                        <p>© 2021 Executive Trade International.</p>
+                        <p>© { now.getFullYear() } Executive Trade International.</p>
                     </div>
                 </div>
             </div>

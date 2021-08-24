@@ -1,4 +1,7 @@
 import React from 'react'
+import topografo from '../images/scott.jpg'
+import construccion from '../images/ivan.jpg'
+import carretera from '../images/mika.jpg'
 
 export const Proyectos = () => {
     return (
@@ -8,7 +11,7 @@ export const Proyectos = () => {
 
                 <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
                     <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto">
-                        <div className="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center" style={{ backgroundImage: "url(https://images.unsplash.com/photo-1597668094804-6236e6a8d248?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80)" }}></div>
+                        <div className="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center" style={{ backgroundImage: `url(${carretera})` }}></div>
 
                         <div className="w-70 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden mx-5 p-5">
                             <div className="header-content inline-flex">
@@ -26,7 +29,7 @@ export const Proyectos = () => {
                     </div>
 
                     <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto">
-                        <div className="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center" style={{ backgroundImage: "url(https://images.unsplash.com/photo-1607134541878-f3bbce97b2dd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)" }}></div>
+                        <div className="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center" style={{ backgroundImage: `url(${topografo})`   }}></div>
 
                         <div className=" w-70 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden mx-5 p-5">
                         
@@ -45,7 +48,7 @@ export const Proyectos = () => {
                     </div>
 
                     <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto">
-                        <div className="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center" style={{ backgroundImage: "url(https://images.unsplash.com/photo-1563166423-482a8c14b2d6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)" }}></div>
+                        <div className="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center" style={{ backgroundImage: `url(${construccion})` }}></div>
 
                         <div className=" w-70 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden mx-5 p-5">
                         
