@@ -8,12 +8,14 @@ import { Footer } from "../components/Footer"
 import { Servicios } from "../components/Servicios"
 import { Proyectos } from "../components/Proyectos"
 import { Contacto } from "../components/Contacto"
+import { Clientes } from "../components/Clientes"
 
 // markup
 const IndexPage = () => {
   return (
     <Layout>
 
+      <p>pruebas de rama test</p>
       <Seo title="Tec Elec del Pacifico" lang="es" />
 
       <Presentacion />
@@ -28,6 +30,10 @@ const IndexPage = () => {
 
       <div className="mt-5">
         <Proyectos />
+      </div>
+
+      <div className="">
+        <Clientes />
       </div>
 
       <div className="mt-5">

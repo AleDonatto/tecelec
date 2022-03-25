@@ -3,7 +3,8 @@ import React from 'react'
 export const Nosotros = () => {
     return (
         <div id="nosotros">
-            <div className="bg-gray-100">
+           
+            {/*<div className="bg-gray-100">
                 <div className="container mx-auto px-6 py-10 sm:mt-20 md:mt-20" >
                     <div className="shadow-2xl py-10 bg-white rounded-lg">
                         <h2 className="text-center text-black font-sans text-3xl font-bold mb-5">Nosotros</h2>
@@ -14,13 +15,13 @@ export const Nosotros = () => {
                         </p>
                     </div>
                 </div>
-            </div>
+            </div>*/}
 
             <div className="bg-gray-100">
                 <div className="container mx-auto px-6 py-5">
                     <h1 className="text-blue-600 text-opacity-100 text-left fonts-sans font-extrabold text-3xl">TEC ELEC DEL PACIFICO: los experto en levantamiento de casas, edificios, calles, puentes o carreteras</h1>
                     <div className="grid grid-cols-2 gap-4">
-                        <div className="mt-5 p-8">
+                        <div className="bg-white mt-5 p-8">
                             <div className="flex mt-6 justify-start">
                                 <div className="w-36 h-2 rounded-full bg-indigo-500 inline-flex"></div>
                             </div>
@@ -30,7 +31,7 @@ export const Nosotros = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="mt-5 p-8">
+                        <div className="bg-white mt-5 p-8">
                             <div className="flex mt-6 justify-start">
                                 <div className="w-36 h-2 rounded-full bg-indigo-500 inline-flex"></div>
                             </div>

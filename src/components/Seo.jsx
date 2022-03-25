@@ -55,6 +55,10 @@ export const Seo = ({title ,description, lang, image:metaImage }) => {
                     content: site.siteMetadata.keywords,
                 },
                 {
+                    name: 'image',
+                    content: image,
+                },
+                {
                     property: `og:title`,
                     content: title,
                 },

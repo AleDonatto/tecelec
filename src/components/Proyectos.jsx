@@ -17,10 +17,10 @@ export const Proyectos = () => {
                             <div className="header-content inline-flex">
                                 <div className="category-badge flex-1 h-4 w-4 m rounded-full m-1 bg-purple-100">
                                     <div className="h-2 w-2 rounded-full m-1 bg-purple-500 "></div>
-                                </div>
+                                </div> 
                                 <div className="category-title flex-1 text-sm">Carreteras</div>
                             </div>
-                            <div className="title-post font-medium">av. Escenica</div>
+                            <div className="title-post font-medium">Av. Escenica</div>
 
                             <div className="summary-post text-base text-justify">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veritatis vel suscipit ex dolore possimus iure.
