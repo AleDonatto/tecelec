@@ -16,6 +16,8 @@ const IndexPage = () => {
     <Layout>
 
       <p>pruebas de rama test</p>
+
+      <p>prueba de rama main a test</p>
       <Seo title="Tec Elec del Pacifico" lang="es" />
 
       <Presentacion />
